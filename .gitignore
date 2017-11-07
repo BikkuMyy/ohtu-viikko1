@@ -2,3 +2,5 @@
 build/
 nbproject
 .nb-gradle
+.gradle/
+*/.gradle/

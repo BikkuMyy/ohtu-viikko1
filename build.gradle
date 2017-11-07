@@ -15,6 +15,9 @@ apply plugin: 'application'
 //Apply JaCoCo plugin fot test coverage
 apply plugin: "jacoco"
 
+//Add checkstyle plugin
+apply plugin: "checkstyle"
+
 // In this section you declare where to find the dependencies of your project
 repositories {
     // Use jcenter for resolving your dependencies.
