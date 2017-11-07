@@ -1,6 +1,6 @@
 *.tmp
 build/
-nbproject
+nbproject/
 .nb-gradle
 .gradle/
 */.gradle/

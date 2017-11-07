@@ -6,7 +6,7 @@ import static org.junit.Assert.assertEquals;
 
 public class StatisticsTest {
 
-    Reader readerStub = new Reader() {
+    private Reader readerStub = new Reader() {
 
         @Override
         public List getPlayers() {
@@ -29,7 +29,7 @@ public class StatisticsTest {
         }
     };
     
-    Statistics stats;
+    private Statistics stats;
     
     @Before
     public void setUp(){
